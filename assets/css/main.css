@@ -2553,22 +2553,28 @@ dl dt {
 	display: inline-block;
 	font-weight: 400;
 	margin: 0 0 2em 0;
+	width: 100%;
 }
 
 dl dd {
-	margin-left: 2em;
+	margin-left: 0em;
 }
 
 dl.alt dt {
 	display: inline-block;
-	width: 2em;
+	width: 100%;
 	margin: 0;
 	clear: left;
-	float: none;
+}
+
+dl.alt dt span {
+	font-weight: 100;
+	margin-left: 1em;
+	color: #b8b8b8;
 }
 
 dl.alt dd {
-	margin: 0 0 0.3em 3em;
+	margin: 0 0 3em 0em;
 }
 
 dl.alt:after {
@@ -2714,7 +2720,7 @@ ul.icons {
 }
 
 ul.icons li {
-	display: inline-flex;
+	display: inline-block;
 	padding: 0 0.5em 0 0;
 }
 
@@ -3766,10 +3772,10 @@ body.is-preload #header.alt .logo {
 /* Footer */
 
 #footer {
-	display: -moz-flex;
-	display: -webkit-flex;
-	display: -ms-flex;
-	display: flex;
+	display: -moz-inline-box;
+	display: -webkit-box;
+	display: -ms-box;
+	display: box;
 	-moz-flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
@@ -3781,7 +3787,7 @@ body.is-preload #header.alt .logo {
 
 #footer > * {
 	width: calc(80% - 4em);
-	margin-left: 2em;
+	margin-left: 8em;
 }
 
 #footer .copyright {
@@ -3801,7 +3807,7 @@ body.is-preload #header.alt .logo {
 	#footer {
 		padding: 4em 3em 2em 3em;
 		display: block;
-		margin: 0 0 3em 0;
+		margin: 0 0 2em 0;
 		width: 100%;
 	}
 
@@ -3812,7 +3818,7 @@ body.is-preload #header.alt .logo {
 	}
 
 	#footer .copyright {
-		text-align: left;
+		text-align: center;
 	}
 }
 
