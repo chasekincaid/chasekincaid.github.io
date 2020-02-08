@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -99,11 +94,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #4b1e1e;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #271013 15%, #160000 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #271013 15%, #160000 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #271013 15%, #160000 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #271013 15%, #160000 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #4d0505;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2364,7 +2359,7 @@ input, select, textarea {
 
 	.image {
 		border-radius: 8px;
-		border: 0;
+		border: 0px;
 		display: inline-block;
 		position: relative;
 	}
@@ -2375,7 +2370,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
@@ -2814,8 +2809,8 @@ input, select, textarea {
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
-			margin-left: 2em;
+			width: calc(28% - 2em);
+			margin-left: 4em;
 			margin-top: 3em;
 			padding: 0;
 		}
@@ -3546,10 +3541,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #8d5056, #522020, #160000);
+			background-image: -webkit-linear-gradient(90deg, #8d5056, #522020, #160000);
+			background-image: -ms-linear-gradient(90deg, #8d5056, #522020, #160000);
+			background-image: linear-gradient(90deg, #8d5056, #522020, #160000);
 		}
 
 		#main table tbody tr {
@@ -3783,3 +3778,29 @@ input, select, textarea {
 			}
 
 		}
+
+/* Project Logos 
+		#projectLogo {
+			background-image: url(spritesheet.png);
+			background-repeat: no-repeat;
+			display: block;
+		}
+		
+		.projectLogo-background {
+			width: 300px;
+			height: 300px;
+			background-position: -5px -5px;
+		}
+		
+		.projectLogo-ihEvvj2P_200x200 {
+			width: 150px;
+			height: 150px;
+			background-position: -5px -704px;
+		}
+		
+		.projectLogo-space_gif {
+			width: 718px;
+			height: 404px;
+			background-position: -5px -864px;
+		}
+*/
